@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f268d18c-e996-4b29-9489-9c60d5e3f5bc++8218",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DAEB3749AFBB919F56123BA835D46562F735D458",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "f268d18c-e996-4b29-9489-9c60d5e3f5bc++8218" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DAEB3749AFBB919F56123BA835D46562F735D458" : 9223372036854775807,
     "f268d18c-e996-4b29-9489-9c60d5e3f5bc++8218" : 9223372036854775807,
     "8710737E6E4F06ACEC4FC00188A330F26426543B" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "715DBD8A-EB3F-4F34-8678-6695AAD93A4B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DAEB3749AFBB919F56123BA835D46562F735D458" : "ImageSlideShow-master\/",
     "f268d18c-e996-4b29-9489-9c60d5e3f5bc++8218" : "..",
     "8710737E6E4F06ACEC4FC00188A330F26426543B" : "ImageSlideShow\/"
   },
@@ -22,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dimix\/ImageSlideShow",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8710737E6E4F06ACEC4FC00188A330F26426543B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michalbanan\/ImageSlideShow",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DAEB3749AFBB919F56123BA835D46562F735D458"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.dimitrigiani.it",

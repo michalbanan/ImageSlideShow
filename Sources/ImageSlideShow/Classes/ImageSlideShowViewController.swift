@@ -42,6 +42,7 @@ open class ImageSlideShowViewController: UIPageViewController, UIPageViewControl
 	open var navigationBarTintColor:UIColor = .white
     open var dismissNavigationButton: UIButton = UIButton()
     open var navigationBarTitle: String = ""
+
 	open var controllerDidDismiss:() -> Void = {}
 	open var stepAnimate:((_ offset:CGFloat, _ viewController:UIViewController) -> Void) = { _,_ in }
 	open var restoreAnimation:((_ viewController:UIViewController) -> Void) = { _ in }
@@ -128,6 +129,7 @@ open class ImageSlideShowViewController: UIPageViewController, UIPageViewControl
         dismissNavigationButton.addTarget(self, action: #selector(dismiss(sender:)), for: .touchUpInside)
 		navigationItem.leftBarButtonItem = UIBarButtonItem(customView: dismissNavigationButton)
         navigationItem.title = navigationBarTitle
+		navigationItem.leftBarButtonItem = UIBarButtonItem(customView: dismissNavigationButton)
 		
 		//	Manage Gestures
 		
